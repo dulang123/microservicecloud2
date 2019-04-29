@@ -7,16 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-api" />
-        <module name="microservicecloud-config-eureka-client-7001" />
+        <module name="microservicecloud-config-eureka-client-7001 (2)" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloud-consumer-dept-feign" />
         <module name="microservicecloud-provider-dept-8001" />
         <module name="microservicecloud-provider-dept-8002" />
+        <module name="microservicecloudconfig3344" />
+        <module name="microservicecloudconfigclient3355" />
+        <module name="microservicecloudconfigdeptclient8001" />
+        <module name="microservicecloudconfigeurekaclient7001" />
         <module name="microservicecloudconsumerhystrixdashboard" />
         <module name="microservicecloudproviderdepthystrix8001" />
         <module name="microservicecloudzuulgateway9527" />
         <module name="webtest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservicecloud-config-eureka-client-7001" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
